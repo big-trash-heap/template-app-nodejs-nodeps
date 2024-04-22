@@ -1,0 +1,21 @@
+{
+  "extends": "./.config/tsconfig.json",
+  "compilerOptions": {
+    "rootDirs": [
+      "./apps",
+      "./libs"
+    ],
+    "paths": {
+      "#apps/*": [
+        "./apps/*"
+      ],
+      "#libs/*": [
+        "./libs/*"
+      ]
+    }
+  },
+  "include": [
+    "./apps/**/*",
+    "./libs/**/*"
+  ]
+}

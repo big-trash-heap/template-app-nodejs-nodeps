@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "target": "es2016",
+    "experimentalDecorators": false,
+    "emitDecoratorMetadata": false,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "rootDirs": ["./apps", "./libs"],
+    "allowJs": true,
+    "checkJs": true,
+    "outDir": "../.build",
+    "removeComments": true,
+    "newLine": "crlf",
+    "verbatimModuleSyntax": false,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "noImplicitAny": false,
+    "alwaysStrict": true,
+    "noUncheckedIndexedAccess": true,
+    "noImplicitOverride": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "allowUnreachableCode": true,
+    "skipLibCheck": true,
+    "declaration": true,
+    "sourceMap": true,
+    "paths": {
+      "#apps/*": ["./apps/*"],
+      "#libs/*": ["./libs/*"]
+    }
+  }
+}
